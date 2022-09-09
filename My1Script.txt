@@ -1,0 +1,71 @@
+#!/bin/bash
+
+#Welcome
+echo
+echo Welcome!
+echo
+echo 1> InfoScriptLog
+echo Welcome! >> InfoScriptLog
+echo 1> InfoScriptLog
+
+#Display current time and date
+echo “Current time and date”
+date
+echo
+echo “Current time and date” 1>> InfoScriptLog
+date 1>> InfoScriptLog
+echo 1>> InfoScriptLog
+
+#Display how long system been running
+echo “How long system been running”
+uptime
+echo
+echo “How long system been running” 1>> InfoScriptLog
+uptime 1>> InfoScriptLog
+echo 1>> InfoScriptLog
+
+#Print system information
+echo “System Information”
+uname -r -a
+echo
+echo “System Information” 1>> InfoScriptLog
+uname -r -a 1>> InfoScriptLog
+echo 1>> InfoScriptLog
+
+#Show system host name
+echo “System host name”
+hostname
+echo
+echo “System host name” 1>> InfoScriptLog
+hostname 1>> InfoScriptLog
+echo 1>> InfoScriptLog
+
+#Print current user name
+echo “Current user name”
+whoami
+echo
+echo “Current user name” 1>> InfoScriptLog
+whoami 1>> InfoScriptLog
+echo 1>> InfoScriptLog
+
+#Print real and effective user and group IDs
+echo “User and groups IDs”
+id
+echo
+echo “User and groups IDs” 1>> InfoScriptLog
+id 1>> InfoScriptLog
+echo 1>> InfoScriptLog
+
+#Configure network interface
+echo “Network Interface”
+ifconfig
+echo
+echo “Network Interface” 1>> InfoScriptLog
+ifconfig 1>> InfoScriptLog
+echo 1>> InfoScriptLog
+
+#Bye
+echo Bye
+echo
+echo 1>> InfoScriptLog
+echo Bye >> InfoScriptLog
