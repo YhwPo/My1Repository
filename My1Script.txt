@@ -56,6 +56,14 @@ echo “User and groups IDs” 1>> InfoScriptLog
 id 1>> InfoScriptLog
 echo 1>> InfoScriptLog
 
+#Print current processes
+echo "Current processes"
+ps
+echo
+echo "Current processes" 1>> InfoScriptLog
+ps 1>> InfoScriptLog
+echo 1>> InfoScriptLog
+
 #Configure network interface
 echo “Network Interface”
 ifconfig
